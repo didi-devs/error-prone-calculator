@@ -1,12 +1,20 @@
 {
-  "name": "error-prone-calculator",
+  "name": "calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "main.js",
+  "dependencies": {
+    "utils": "^1.0.0"
   },
-  "keywords": [],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "add": "node main.js add",
+    "subtract": "node main.js subtract",
+    "divide": "node main.js divide",
+    "multiply": "node main.js multiply"
+  },
   "author": "",
   "license": "ISC"
 }
